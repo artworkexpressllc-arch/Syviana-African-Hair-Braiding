@@ -1,0 +1,6 @@
+{
+  "name": "Syviana Africa Hair Braiding",
+  "description": "Professional African hair braiding salon in Chicago, IL. Specializing in knotless braids, box braids, cornrows, stitch braids, and twists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

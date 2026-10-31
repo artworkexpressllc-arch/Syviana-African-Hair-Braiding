@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-gold-400: #F2D27A;
+  --color-gold-500: #D6A52B;
+  --color-gold-600: #B8861C;
+  --color-obsidian: #0B0B0B;
+  --color-surface: #141414;
+  --color-surface-hover: #1F1F1F;
+}
+
+:root {
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-cinzel: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #0B0B0B;
+  color: #F3F4F6;
+  overflow-x: hidden;
+}
+
+.font-serif-luxury {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-cinzel-luxury {
+  font-family: 'Cinzel', Georgia, serif;
+}
+
+/* Custom Gold Accent Gradients */
+.gold-gradient-bg {
+  background: linear-gradient(135deg, #F2D27A 0%, #D6A52B 50%, #B8861C 100%);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #F9E7B4 0%, #D6A52B 55%, #F2D27A 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-border-glow:hover {
+  border-color: #D6A52B;
+  box-shadow: 0 0 20px rgba(214, 165, 43, 0.25);
+}
+
+/* Smooth focus rings */
+*:focus-visible {
+  outline: 2px solid #D6A52B;
+  outline-offset: 2px;
+}
